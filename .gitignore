@@ -1,0 +1,13 @@
+*.dll
+*.config
+*.suo
+*.sln.docstates
+*.vs
+*.sln
+*.pdb
+*.exe
+*.ttf
+*.eot
+*.woff
+*.cache
+*.nupkg
