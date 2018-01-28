@@ -1,0 +1,43 @@
+Exercise 1
+Q5: Find the common layout and so the following:
+D) What dynamically generates the copyright year?
+The bootstrap file seems to get the datetime from the local machine and import it into the _layout.cshtml
+
+E) Where does the year get generated, browser or Web server?
+It seems to come from the Web server
+
+Exercise 2
+Q6: 
+What are the items that start with "@Html." called?
+This is Razor syntax
+
+How does the view know what model it is supposed to use for rendering input fields for model properties?
+It uses the folder layout and the names of the files to determine how to map inputs and outputs
+
+
+Q8)
+Is the text displayed in the footer the same as what is displayed in the footer on the home page?  Why is it the same?
+All of the pages are using a common _layout.cshtml to get their formatting. 
+
+
+Q9)
+Click on the "Back to List" link.  What happens?  Why?
+Nothing happens because it is not implimented yet.
+
+Exercise 3
+Q3)
+Add an action and view combination that renders a list of existing Users.
+Where is the "Users" data defined in the view?
+The users data comes from the connection between the "create" and the Usercontroller and user database. There is no actual data in the view. It all comes from the other supporting classes.
+
+Exercise 4
+
+Q1)
+Run the application and try adding a User with only the "Years in School" entered.
+What is displayed when the application returns you to the list of Users?
+It shows a table with only the "years in school" column containing the entered value. 
+
+Q2)
+Add attributes to the User model to force all of the input fields to be required except middle name.
+Try adding a "User" with one or more of the required fields missing.  What happens?
+Nothing is stopping the form from submitting, so it continues to redirect to the user list page. 
