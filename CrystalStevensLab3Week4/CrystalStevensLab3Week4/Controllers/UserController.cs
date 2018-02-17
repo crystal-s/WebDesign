@@ -3,15 +3,30 @@ using System.Web.Mvc;
 using CrystalStevensLab3Week4.Data;
 using CrystalStevensLab3Week4.Data.Entities;
 using CrystalStevensLab3Week4.Models.View;
+using CrystalStevensLab3Week4.Repositories;
+using CrystalStevensLab3Week4.Services;
 
 namespace CrystalStevensLab3Week4.Controllers
 {
     public class UserController : Controller
     {
-        // GET: User
+        private readonly IUserService _repo;
+        //private readonly IEntityRepository _repo;
+
+        //public UserController()
+        //{
+        //    AppDbContext db = new AppDbContext();
+        //    _repo = new EntityRepository(db);   
+        //}
+
+        public UserController(IUserService userService)
+        {
+            _repo = userService;
+        }
+
         public ActionResult List()
         {
-            var users = GetAllUsers();
+            var users = _repo.GetAllUsers();
 
             return View(users);
         }
@@ -27,9 +42,7 @@ namespace CrystalStevensLab3Week4.Controllers
         {
             if (ModelState.IsValid)
             {
-                var user = MapToUser(userViewModel);
-
-                SaveUser(user);
+                _repo.SaveUser(userViewModel);
 
                 return RedirectToAction("List");
             }
@@ -41,7 +54,7 @@ namespace CrystalStevensLab3Week4.Controllers
 
         public ActionResult Details(int id)
         {
-            var user = GetUser(id);
+            var user = _repo.GetUser(id);
 
             return View(user);
         }
@@ -49,7 +62,7 @@ namespace CrystalStevensLab3Week4.Controllers
         [HttpGet]
         public ActionResult Edit(int id)
         {
-            var user = GetUser(id);
+            var user = _repo.GetUser(id);
 
             return View(user);
         }
@@ -59,7 +72,7 @@ namespace CrystalStevensLab3Week4.Controllers
         {
             if (ModelState.IsValid)
             {
-                UpdateUser(userViewModel);
+                _repo.UpdateUser(userViewModel);
 
                 return RedirectToAction("List");
             }
@@ -69,104 +82,10 @@ namespace CrystalStevensLab3Week4.Controllers
 
         public ActionResult Delete(int id)
         {
-            DeleteUser(id);
+            _repo.DeleteUser(id);
 
             return RedirectToAction("List");
         }
-
-        private UserViewModel GetUser(int id)
-        {
-            var dbContext = new AppDbContext();
-
-            var user = dbContext.Users.Find(id);
-
-            return MapToUserViewModel(user);
-        }
-
-        private IEnumerable<UserViewModel> GetAllUsers()
-        {
-            var userViewModels = new List<UserViewModel>();
-
-            var dbContext = new AppDbContext();
-
-            foreach (var user in dbContext.Users)
-            {
-                var userViewModel = MapToUserViewModel(user);
-                userViewModels.Add(userViewModel);
-            }
-
-            return userViewModels;
-        }
-
-        private void SaveUser(User user)
-        {
-            var dbContext = new AppDbContext();
-
-            dbContext.Users.Add(user);
-
-            dbContext.SaveChanges();
-        }
-
-        private void UpdateUser(UserViewModel userViewModel)
-        {
-            var dbContext = new AppDbContext();
-
-            var user = dbContext.Users.Find(userViewModel.Id);
-
-            CopyToUser(userViewModel, user);
-
-            dbContext.SaveChanges();
-        }
-
-        private void DeleteUser(int id)
-        {
-            var dbContext = new AppDbContext();
-
-            var user = dbContext.Users.Find(id);
-
-            if (user != null)
-            {
-                dbContext.Users.Remove(user);
-                dbContext.SaveChanges();
-            }
-        }
-
-        private User MapToUser(UserViewModel userViewModel)
-        {
-            return new User
-            {
-                Id = userViewModel.Id,
-                FirstName = userViewModel.FirstName,
-                MiddleName = userViewModel.MiddleName,
-                LastName = userViewModel.LastName,
-                EmailAddress = userViewModel.EmailAddress,
-                DateOfBirth = userViewModel.DOB,
-                YearsInSchool = userViewModel.YearsInSchool
-            };
-        }
-
-        private UserViewModel MapToUserViewModel(User user)
-        {
-            return new UserViewModel
-            {
-                Id = user.Id,
-                FirstName = user.FirstName,
-                MiddleName = user.MiddleName,
-                LastName = user.LastName,
-                EmailAddress = user.EmailAddress,
-                DOB = user.DateOfBirth,
-                YearsInSchool = user.YearsInSchool
-            };
-        }
-
-        private void CopyToUser(UserViewModel userViewModel, User user)
-        {
-            user.FirstName = userViewModel.FirstName;
-            user.MiddleName = userViewModel.MiddleName;
-            user.LastName = userViewModel.LastName;
-            user.EmailAddress = userViewModel.EmailAddress;
-            user.DateOfBirth = userViewModel.DOB;
-            user.YearsInSchool = userViewModel.YearsInSchool;
-        }
+      
     }
 }

@@ -32,5 +32,7 @@ namespace CrystalStevensLab3Week4.Models.View
         public string VetName { get; set; }
 
         public int UserId { get; set; }
+
+        public bool CheckupAlert { get; set; }
     }
 }

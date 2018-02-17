@@ -54,4 +54,10 @@ C:\Users\Crystal\Desktop\College\OIT\CST356 - Web Design\WebDesign\CrystalSteven
 C:\Users\Crystal\Desktop\College\OIT\CST356 - Web Design\WebDesign\CrystalStevensLab3Week4\CrystalStevensLab3Week4\bin\Newtonsoft.Json.xml
 C:\Users\Crystal\Desktop\College\OIT\CST356 - Web Design\WebDesign\CrystalStevensLab3Week4\CrystalStevensLab3Week4\obj\Debug\CrystalStevensLab3Week4.dll
 C:\Users\Crystal\Desktop\College\OIT\CST356 - Web Design\WebDesign\CrystalStevensLab3Week4\CrystalStevensLab3Week4\obj\Debug\CrystalStevensLab3Week4.pdb
+C:\Users\Crystal\Desktop\College\OIT\CST356 - Web Design\WebDesign\CrystalStevensLab3Week4\CrystalStevensLab3Week4\bin\SimpleInjector.dll
+C:\Users\Crystal\Desktop\College\OIT\CST356 - Web Design\WebDesign\CrystalStevensLab3Week4\CrystalStevensLab3Week4\bin\SimpleInjector.xml
+C:\Users\Crystal\Desktop\College\OIT\CST356 - Web Design\WebDesign\CrystalStevensLab3Week4\CrystalStevensLab3Week4\bin\SimpleInjector.Integration.Web.dll
+C:\Users\Crystal\Desktop\College\OIT\CST356 - Web Design\WebDesign\CrystalStevensLab3Week4\CrystalStevensLab3Week4\bin\SimpleInjector.Integration.Web.Mvc.dll
+C:\Users\Crystal\Desktop\College\OIT\CST356 - Web Design\WebDesign\CrystalStevensLab3Week4\CrystalStevensLab3Week4\bin\SimpleInjector.Integration.Web.xml
+C:\Users\Crystal\Desktop\College\OIT\CST356 - Web Design\WebDesign\CrystalStevensLab3Week4\CrystalStevensLab3Week4\bin\SimpleInjector.Integration.Web.Mvc.xml
 C:\Users\Crystal\Desktop\College\OIT\CST356 - Web Design\WebDesign\CrystalStevensLab3Week4\CrystalStevensLab3Week4\obj\Debug\CrystalStevensLab3Week4.csprojResolveAssemblyReference.cache

@@ -22,6 +22,7 @@ namespace CrystalStevensLab3Week4.Data.Entities
         public string VetName { get; set; }
 
         public int UserId { get; set; }
+
         public User User { get; set; }
     }
 }

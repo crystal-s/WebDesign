@@ -1,0 +1,7 @@
+Briefly explain what dependency injection is and why it is beneficial.
+Dependancy injection allows us to directly insert something we depend on directly into an object or function we wish to test. It allows us to skip instantiating a new copy of this dependancy inside of whatever we are testing. It saves time and eliminates some possible error.
+
+
+Briefly explain what unit tests are and why they are beneficial?
+
+Unit tests are small tests that directly check the output of some functionality when we input a known value. We can use them for regression testing to make sure that bugs we fix stay fixed and that we can make sure to keep from introducing new bugs. 
