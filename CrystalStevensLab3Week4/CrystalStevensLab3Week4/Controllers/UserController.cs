@@ -11,13 +11,6 @@ namespace CrystalStevensLab3Week4.Controllers
     public class UserController : Controller
     {
         private readonly IUserService _repo;
-        //private readonly IEntityRepository _repo;
-
-        //public UserController()
-        //{
-        //    AppDbContext db = new AppDbContext();
-        //    _repo = new EntityRepository(db);   
-        //}
 
         public UserController(IUserService userService)
         {
@@ -86,6 +79,5 @@ namespace CrystalStevensLab3Week4.Controllers
 
             return RedirectToAction("List");
         }
-      
     }
 }

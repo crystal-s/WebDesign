@@ -1,6 +1,4 @@
-﻿using CrystalStevensLab3Week4.Data.Entities;
-using CrystalStevensLab3Week4.Models.View;
-using CrystalStevensLab3Week4.Repositories;
+﻿using CrystalStevensLab3Week4.Models.View;
 using CrystalStevensLab3Week4.Services;
 using System.Web.Mvc;
 

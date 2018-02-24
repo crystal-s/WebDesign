@@ -1,8 +1,5 @@
 ﻿using CrystalStevensLab3Week4.Data.Entities;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 
 namespace CrystalStevensLab3Week4.Repositories
 {
@@ -29,5 +26,4 @@ namespace CrystalStevensLab3Week4.Repositories
 
         void DeletePet(int id);
     }
-
 }
