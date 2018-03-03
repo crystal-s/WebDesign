@@ -1,0 +1,87 @@
+﻿@model IEnumerable<Crystal_Stevens_Week_7_lab.Data.Entities.User>
+
+@{
+    ViewData["Title"] = "List";
+}
+
+<h1 class="well">@ViewData["Title"]</h1>
+
+<p>
+    @Html.ActionLink("Create New", "Create", null, new { @class = "btn btn-info btn-lg" })
+</p>
+
+<table id="table" class="table table-striped table-bordered">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.firstName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.middleName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.lastName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.emailAddress)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.yearsInSchool)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.firstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.middleName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.lastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.emailAddress)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.yearsInSchool)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.Id }, new { @class = "btn btn-info btn-xs" }) |
+                @Html.ActionLink("Details", "Details", new { id = item.Id }, new { @class = "btn btn-info btn-xs" }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.Id }, new { @class = "btn btn-info btn-xs" })
+            </td>
+        </tr>
+
+    }
+    <button type="button" class="btn" id="hidebutton">Hide Table</button>
+
+    <button type="button" class="btn" id="displaybutton">Display Table</button>
+
+    @if (Model.Count() > 2)
+    {
+        <div class="alert alert-info alert-dismissable">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+            <strong>Hooray!</strong> You have more than 2 things in your table. Good job.
+        </div>
+    }
+</table>
+
+@section scripts {
+    <script>
+        $(document).ready(function () {
+            initializeModal();
+        });
+
+        $("#hidebutton").click(function () {
+            $("table").hide();
+        });
+
+        $("#displaybutton").click(function () {
+            $("table").show();
+        });
+
+    </script>
+}

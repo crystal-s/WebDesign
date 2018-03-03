@@ -1,10 +1,10 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace CrystalStevensWeek3Lab.Data.Entities
+namespace Crystal_Stevens_Week_7_lab.Data.Entities
 {
     public class User
     {
-       
+
         public int Id { get; set; }
 
         [Required]
@@ -20,6 +20,6 @@ namespace CrystalStevensWeek3Lab.Data.Entities
 
         [Required]
         public int yearsInSchool { get; set; }
-       
+
     }
 }

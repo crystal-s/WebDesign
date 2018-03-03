@@ -1,0 +1,53 @@
+C:\Users\Crystal\Desktop\College\OIT\Sr. Project\SeniorProject\Crystal Stevens Week 7 lab\Crystal Stevens Week 7 lab\bin\ApplicationInsights.config
+C:\Users\Crystal\Desktop\College\OIT\Sr. Project\SeniorProject\Crystal Stevens Week 7 lab\Crystal Stevens Week 7 lab\bin\roslyn\csc.exe
+C:\Users\Crystal\Desktop\College\OIT\Sr. Project\SeniorProject\Crystal Stevens Week 7 lab\Crystal Stevens Week 7 lab\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Crystal\Desktop\College\OIT\Sr. Project\SeniorProject\Crystal Stevens Week 7 lab\Crystal Stevens Week 7 lab\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Crystal\Desktop\College\OIT\Sr. Project\SeniorProject\Crystal Stevens Week 7 lab\Crystal Stevens Week 7 lab\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Crystal\Desktop\College\OIT\Sr. Project\SeniorProject\Crystal Stevens Week 7 lab\Crystal Stevens Week 7 lab\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Crystal\Desktop\College\OIT\Sr. Project\SeniorProject\Crystal Stevens Week 7 lab\Crystal Stevens Week 7 lab\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Crystal\Desktop\College\OIT\Sr. Project\SeniorProject\Crystal Stevens Week 7 lab\Crystal Stevens Week 7 lab\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Crystal\Desktop\College\OIT\Sr. Project\SeniorProject\Crystal Stevens Week 7 lab\Crystal Stevens Week 7 lab\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Crystal\Desktop\College\OIT\Sr. Project\SeniorProject\Crystal Stevens Week 7 lab\Crystal Stevens Week 7 lab\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Crystal\Desktop\College\OIT\Sr. Project\SeniorProject\Crystal Stevens Week 7 lab\Crystal Stevens Week 7 lab\bin\roslyn\vbc.exe
+C:\Users\Crystal\Desktop\College\OIT\Sr. Project\SeniorProject\Crystal Stevens Week 7 lab\Crystal Stevens Week 7 lab\bin\roslyn\VBCSCompiler.exe
+C:\Users\Crystal\Desktop\College\OIT\Sr. Project\SeniorProject\Crystal Stevens Week 7 lab\Crystal Stevens Week 7 lab\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Crystal\Desktop\College\OIT\Sr. Project\SeniorProject\Crystal Stevens Week 7 lab\Crystal Stevens Week 7 lab\bin\Crystal Stevens Week 7 lab.dll.config
+C:\Users\Crystal\Desktop\College\OIT\Sr. Project\SeniorProject\Crystal Stevens Week 7 lab\Crystal Stevens Week 7 lab\bin\Crystal Stevens Week 7 lab.dll
+C:\Users\Crystal\Desktop\College\OIT\Sr. Project\SeniorProject\Crystal Stevens Week 7 lab\Crystal Stevens Week 7 lab\bin\Crystal Stevens Week 7 lab.pdb
+C:\Users\Crystal\Desktop\College\OIT\Sr. Project\SeniorProject\Crystal Stevens Week 7 lab\Crystal Stevens Week 7 lab\bin\Antlr3.Runtime.dll
+C:\Users\Crystal\Desktop\College\OIT\Sr. Project\SeniorProject\Crystal Stevens Week 7 lab\Crystal Stevens Week 7 lab\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Crystal\Desktop\College\OIT\Sr. Project\SeniorProject\Crystal Stevens Week 7 lab\Crystal Stevens Week 7 lab\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Crystal\Desktop\College\OIT\Sr. Project\SeniorProject\Crystal Stevens Week 7 lab\Crystal Stevens Week 7 lab\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Crystal\Desktop\College\OIT\Sr. Project\SeniorProject\Crystal Stevens Week 7 lab\Crystal Stevens Week 7 lab\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Crystal\Desktop\College\OIT\Sr. Project\SeniorProject\Crystal Stevens Week 7 lab\Crystal Stevens Week 7 lab\bin\Microsoft.AI.Web.dll
+C:\Users\Crystal\Desktop\College\OIT\Sr. Project\SeniorProject\Crystal Stevens Week 7 lab\Crystal Stevens Week 7 lab\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Crystal\Desktop\College\OIT\Sr. Project\SeniorProject\Crystal Stevens Week 7 lab\Crystal Stevens Week 7 lab\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Crystal\Desktop\College\OIT\Sr. Project\SeniorProject\Crystal Stevens Week 7 lab\Crystal Stevens Week 7 lab\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Crystal\Desktop\College\OIT\Sr. Project\SeniorProject\Crystal Stevens Week 7 lab\Crystal Stevens Week 7 lab\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Crystal\Desktop\College\OIT\Sr. Project\SeniorProject\Crystal Stevens Week 7 lab\Crystal Stevens Week 7 lab\bin\Newtonsoft.Json.dll
+C:\Users\Crystal\Desktop\College\OIT\Sr. Project\SeniorProject\Crystal Stevens Week 7 lab\Crystal Stevens Week 7 lab\bin\System.Web.Helpers.dll
+C:\Users\Crystal\Desktop\College\OIT\Sr. Project\SeniorProject\Crystal Stevens Week 7 lab\Crystal Stevens Week 7 lab\bin\System.Web.Mvc.dll
+C:\Users\Crystal\Desktop\College\OIT\Sr. Project\SeniorProject\Crystal Stevens Week 7 lab\Crystal Stevens Week 7 lab\bin\System.Web.Optimization.dll
+C:\Users\Crystal\Desktop\College\OIT\Sr. Project\SeniorProject\Crystal Stevens Week 7 lab\Crystal Stevens Week 7 lab\bin\System.Web.Razor.dll
+C:\Users\Crystal\Desktop\College\OIT\Sr. Project\SeniorProject\Crystal Stevens Week 7 lab\Crystal Stevens Week 7 lab\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Crystal\Desktop\College\OIT\Sr. Project\SeniorProject\Crystal Stevens Week 7 lab\Crystal Stevens Week 7 lab\bin\System.Web.WebPages.dll
+C:\Users\Crystal\Desktop\College\OIT\Sr. Project\SeniorProject\Crystal Stevens Week 7 lab\Crystal Stevens Week 7 lab\bin\System.Web.WebPages.Razor.dll
+C:\Users\Crystal\Desktop\College\OIT\Sr. Project\SeniorProject\Crystal Stevens Week 7 lab\Crystal Stevens Week 7 lab\bin\WebGrease.dll
+C:\Users\Crystal\Desktop\College\OIT\Sr. Project\SeniorProject\Crystal Stevens Week 7 lab\Crystal Stevens Week 7 lab\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Crystal\Desktop\College\OIT\Sr. Project\SeniorProject\Crystal Stevens Week 7 lab\Crystal Stevens Week 7 lab\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Crystal\Desktop\College\OIT\Sr. Project\SeniorProject\Crystal Stevens Week 7 lab\Crystal Stevens Week 7 lab\bin\Microsoft.AI.Web.xml
+C:\Users\Crystal\Desktop\College\OIT\Sr. Project\SeniorProject\Crystal Stevens Week 7 lab\Crystal Stevens Week 7 lab\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Crystal\Desktop\College\OIT\Sr. Project\SeniorProject\Crystal Stevens Week 7 lab\Crystal Stevens Week 7 lab\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Crystal\Desktop\College\OIT\Sr. Project\SeniorProject\Crystal Stevens Week 7 lab\Crystal Stevens Week 7 lab\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Crystal\Desktop\College\OIT\Sr. Project\SeniorProject\Crystal Stevens Week 7 lab\Crystal Stevens Week 7 lab\bin\System.Web.Helpers.xml
+C:\Users\Crystal\Desktop\College\OIT\Sr. Project\SeniorProject\Crystal Stevens Week 7 lab\Crystal Stevens Week 7 lab\bin\System.Web.Mvc.xml
+C:\Users\Crystal\Desktop\College\OIT\Sr. Project\SeniorProject\Crystal Stevens Week 7 lab\Crystal Stevens Week 7 lab\bin\System.Web.Optimization.xml
+C:\Users\Crystal\Desktop\College\OIT\Sr. Project\SeniorProject\Crystal Stevens Week 7 lab\Crystal Stevens Week 7 lab\bin\System.Web.Razor.xml
+C:\Users\Crystal\Desktop\College\OIT\Sr. Project\SeniorProject\Crystal Stevens Week 7 lab\Crystal Stevens Week 7 lab\bin\System.Web.WebPages.xml
+C:\Users\Crystal\Desktop\College\OIT\Sr. Project\SeniorProject\Crystal Stevens Week 7 lab\Crystal Stevens Week 7 lab\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Crystal\Desktop\College\OIT\Sr. Project\SeniorProject\Crystal Stevens Week 7 lab\Crystal Stevens Week 7 lab\bin\System.Web.WebPages.Razor.xml
+C:\Users\Crystal\Desktop\College\OIT\Sr. Project\SeniorProject\Crystal Stevens Week 7 lab\Crystal Stevens Week 7 lab\bin\Antlr3.Runtime.pdb
+C:\Users\Crystal\Desktop\College\OIT\Sr. Project\SeniorProject\Crystal Stevens Week 7 lab\Crystal Stevens Week 7 lab\bin\Newtonsoft.Json.xml
+C:\Users\Crystal\Desktop\College\OIT\Sr. Project\SeniorProject\Crystal Stevens Week 7 lab\Crystal Stevens Week 7 lab\obj\Debug\Crystal Stevens Week 7 lab.dll
+C:\Users\Crystal\Desktop\College\OIT\Sr. Project\SeniorProject\Crystal Stevens Week 7 lab\Crystal Stevens Week 7 lab\obj\Debug\Crystal Stevens Week 7 lab.pdb
+C:\Users\Crystal\Desktop\College\OIT\Sr. Project\SeniorProject\Crystal Stevens Week 7 lab\Crystal Stevens Week 7 lab\obj\Debug\Crystal Stevens Week 7 lab.csprojResolveAssemblyReference.cache

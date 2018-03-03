@@ -1,7 +1,7 @@
-﻿using CrystalStevensWeek3Lab.Data.Entities;
-using Microsoft.AspNetCore.Mvc;
+﻿using Crystal_Stevens_Week_7_lab.Data.Entities;
+using System.Web.Mvc;
 
-namespace CrystalStevensWeek3Lab.Controllers
+namespace Crystal_Stevens_Week_7_lab.Controllers
 {
     public class UserController : Controller
     {
