@@ -20,9 +20,9 @@ namespace CrystalStevensAssignment8.Data.Entities
 
         public string VetName { get; set; }
 
-        //[ForeignKey("User")]
-        public int UserId { get; set; }
+        [ForeignKey("User")]
+        public string UserId { get; set; }
 
-        //public ApplicationUser User { get; set; }
+        public ApplicationUser User { get; set; }
     }
 }

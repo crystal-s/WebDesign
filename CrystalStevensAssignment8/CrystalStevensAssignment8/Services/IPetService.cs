@@ -7,9 +7,9 @@ namespace CrystalStevensAssignment8.Services
     {
         PetViewModel GetPet(int id);
 
-        IEnumerable<PetViewModel> GetPetsForUser(int userId);
+        IEnumerable<PetViewModel> GetPetsForUser(string userId);
 
-        void SavePet(PetViewModel pet);
+        void SavePet(string userid, PetViewModel pet);
 
         void UpdatePet(PetViewModel user);
 

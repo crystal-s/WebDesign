@@ -1,4 +1,4 @@
-﻿@model CrystalStevensLab3Week4.Models.View.PetViewModel
+﻿@model CrystalStevensAssignment8.Models.View.PetViewModel
 
 @{
     ViewBag.Title = "Create Pet";
@@ -54,7 +54,7 @@
                 @Html.ValidationMessageFor(model => model.UserId, "", new { @class = "text-danger" })
             </div>
         </div>
-       @* @Html.HiddenFor(model => model.UserId, (int)ViewBag.UserId)*@
+        @Html.HiddenFor(model => model.UserId, (int)ViewBag.UserId)
 
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">

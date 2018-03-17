@@ -1,10 +1,11 @@
 ﻿using CrystalStevensAssignment8.Models.View;
 using CrystalStevensAssignment8.Services;
+using Microsoft.AspNet.Identity;
 using System.Web.Mvc;
 
-namespace CrystalStevensLab3Week4.Controllers
+namespace CrystalStevensAssignment8.Controllers
 {
-
+    [Authorize]
     public class PetController : Controller
     {
         private readonly IPetService _repo;
@@ -14,9 +15,9 @@ namespace CrystalStevensLab3Week4.Controllers
             _repo = repo;
         }
 
-        public ActionResult List(int userId)
+        public ActionResult List()
         {
-            ViewBag.UserId = userId;
+            var userId = User.Identity.GetUserId();
 
             var pets = _repo.GetPetsForUser(userId);
 
@@ -31,22 +32,31 @@ namespace CrystalStevensLab3Week4.Controllers
             return View(pet);
         }
 
-        [HttpGet]
-        public ActionResult Create(int userId)
-        {
-            ViewBag.UserId = userId;
 
+        [HttpGet]
+        public ActionResult Create()
+        {
             return View();
         }
 
         [HttpPost]
         public ActionResult Create(PetViewModel petViewModel)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
+            { return View(); }
+
+            try
             {
-                _repo.SavePet(petViewModel);
+                var userId = User.Identity.GetUserId();
+                _repo.SavePet(userId, petViewModel);
             }
-            return RedirectToAction("List", new { userId=petViewModel.UserId });
+            catch
+            {
+                //logging here
+                throw;
+            }
+
+            return RedirectToAction("List");
         }
 
         [HttpGet]
@@ -64,7 +74,7 @@ namespace CrystalStevensLab3Week4.Controllers
             {
                 _repo.UpdatePet(petViewModel);
 
-                return RedirectToAction("List", new { userId= petViewModel.UserId });
+                return RedirectToAction("List");
             }
 
             return View();
@@ -72,10 +82,9 @@ namespace CrystalStevensLab3Week4.Controllers
 
         public ActionResult Delete(int id)
         {
-            var pet = _repo.GetPet(id);
             _repo.DeletePet(id);
 
-            return RedirectToAction("List", new { UserId = pet.UserId });
+            return RedirectToAction("List");
         }
     }
 }

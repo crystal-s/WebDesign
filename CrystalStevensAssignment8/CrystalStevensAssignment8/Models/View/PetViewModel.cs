@@ -28,7 +28,7 @@ namespace CrystalStevensAssignment8.Models.View
         [Display(Name = "Vet Name")]
         public string VetName { get; set; }
 
-        public int UserId { get; set; }
+        public string UserId { get; set; }
 
         public bool CheckupAlert { get; set; }
     }

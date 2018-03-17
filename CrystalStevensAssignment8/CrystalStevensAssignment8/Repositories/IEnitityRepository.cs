@@ -8,7 +8,7 @@ namespace CrystalStevensAssignment8.Repositories
     {
         Pet GetPet(int id);
 
-        IEnumerable<Pet> GetPetsForUser(int userId);
+        IEnumerable<Pet> GetPetsForUser(string userId);
 
         void SavePet(Pet pet);
 

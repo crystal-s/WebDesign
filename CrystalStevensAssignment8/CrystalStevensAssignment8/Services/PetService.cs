@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using CrystalStevensAssignment8.Services;
 using CrystalStevensAssignment8.Repositories;
 using CrystalStevensAssignment8.Models.View;
 using CrystalStevensAssignment8.Data.Entities;
@@ -24,7 +21,7 @@ namespace CrystalStevensAssignment8.Services
             return MapToPetViewModel(pet);
         }
 
-        public IEnumerable<PetViewModel> GetPetsForUser(int userId)
+        public IEnumerable<PetViewModel> GetPetsForUser(string userId)
         {
             var petViewModels = new List<PetViewModel>();
 
@@ -38,11 +35,11 @@ namespace CrystalStevensAssignment8.Services
             return petViewModels;
         }
 
-        public void SavePet(PetViewModel petViewModel)
+        public void SavePet(string userid, PetViewModel petViewModel)
         {
             //throw new Exception("Test Exception");
 
-            var pet = MapToPet(petViewModel);
+            var pet = MapToPet(userid, petViewModel);
 
             _repo.SavePet(pet);
         }
@@ -61,7 +58,7 @@ namespace CrystalStevensAssignment8.Services
             _repo.DeletePet(id);
         }
 
-        private Pet MapToPet(PetViewModel petViewModel)
+        private Pet MapToPet(string userid, PetViewModel petViewModel)
         {
             return new Pet
             {
@@ -70,7 +67,7 @@ namespace CrystalStevensAssignment8.Services
                 Age = petViewModel.Age,
                 NextCheckup = petViewModel.NextCheckup,
                 VetName = petViewModel.VetName,
-                UserId = petViewModel.UserId
+                UserId = userid
             };
         }
 
