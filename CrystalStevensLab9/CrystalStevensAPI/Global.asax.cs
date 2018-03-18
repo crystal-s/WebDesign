@@ -1,19 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Web;
 using System.Web.Http;
-using System.Web.Routing;
 
 namespace CrystalStevensAPI
 {
-    public class WebApiApplication : System.Web.HttpApplication
+    public class WebApiApplication : HttpApplication
     {
         protected void Application_Start()
         {
             GlobalConfiguration.Configure(WebApiConfig.Register);
 
-            AppDomain.CurrentDomain.SetData("DataDirectory", @"D:\Classes\Oregon Tech\Web Development\GitHub\webdev\examples\Week7App\Week7App\App_Data");
+            AppDomain.CurrentDomain.SetData("DataDirectory", @"C:\Users\Crystal\Desktop\College\OIT\CST356 - Web Design\WebDesign\CrystalStevensLab9\CrystalStevensLab3Week4\App_Data");
         }
     }
 }
